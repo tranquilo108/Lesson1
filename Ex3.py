@@ -10,11 +10,9 @@ number_of_ticket = int(input('Ваш билетик пожалуйста: '))
 a = number_of_ticket // 1000
 b = number_of_ticket % 1000
 
-
 def sum_of(n):
     n = n // 100 + n % 10 + (n // 10) % 10
     return n
-
 
 if sum_of(a) == sum_of(b):
     print('Ура, счастливый билет!!!')
